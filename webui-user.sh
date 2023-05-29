@@ -45,5 +45,5 @@
 
 # Uncomment to disable TCMalloc
 #export NO_TCMALLOC="True"
-export COMMANDLINE_ARGS="--skip-torch-cuda-test --share"
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --share --precision full --no-half --use-cpu SD GFPGAN BSRGAN ESRGAN SCUNet CodeFormer --all"
 ###########################################
